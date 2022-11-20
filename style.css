@@ -54,6 +54,7 @@ main {
     border-radius: 5px;
     box-sizing: border-box;
     box-shadow: 1px 1px #d9d9d9;
+    position: relative;
 }
 .instructions {
     padding-bottom: 1em;
@@ -61,6 +62,7 @@ main {
     border-bottom: 1px solid #ccc;
     font-size: 0.9em;
     text-align: justify;
+    position: relative;
 }
 .corgi {
   width: 200px;
@@ -98,6 +100,9 @@ main {
 .bandana {
     width: 80px;
     transform: rotate(10deg);
+    position: absolute;
+    top: 11em;
+    left: 7em;
 }
 .fixed-corgi {
     margin-right: 1em;
@@ -107,6 +112,9 @@ main {
 }
 .pawprint {
     width: 45px;
+    position: fixed;
+    top: 45px;
+    left: 64px;
 }
 .sticky { 
     overflow: auto;
@@ -135,4 +143,15 @@ main {
     left: 133px;
     top: -10px;
     width: 40px;
+}
+
+.funny-glasses {
+    position: relative;
+    left: 13.3em;
+    bottom: 6.6em;
+}
+
+.luna {
+    position: sticky;
+    top: 10px;
 }
